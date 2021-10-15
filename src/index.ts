@@ -13,6 +13,7 @@ const start = async () => {
       useUnifiedTopology: true,
       useCreateIndex: true
     });
+    console.log('scratch point of project')
     console.log('Connected to MongoDb');
   } catch (err) {
     console.error(err);
