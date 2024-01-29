@@ -29,5 +29,6 @@ app.all('*', async (req, res) => {
   throw new NotFoundError();
 });
 
+console.log('seso')
 app.use(errorHandler);
 export { app };
