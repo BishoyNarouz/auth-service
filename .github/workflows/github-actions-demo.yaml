@@ -16,3 +16,6 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - run: echo "github object ${{github}}"
+      - run: echo "job info ${{job}}"
+      - run: echo "runner info ${{runner}}"
